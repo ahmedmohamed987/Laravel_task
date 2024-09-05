@@ -1,0 +1,163 @@
+body{
+    background-color: #e4eaf7;;
+}
+.container{
+    margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: transparent;;
+}
+.main-body {
+    padding-top: 15px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+}
+/* .card .bttn {
+    font-size: 110%;
+    border-radius: 3%;
+    border: 2px solid rgba(0, 0, 0, .125);
+    margin-bottom: 20px;
+}
+
+.card .bttn:hover {
+    background-color: #1942e4;
+    color: #e2e8f0;
+} */
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.card-body .imgg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(206, 206, 210);
+    display: inline-block;
+}
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+
+
+.txt h3{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(29, 41, 150)
+}
+.txt h6{
+    color: #203277;
+    font-size: 90%;
+}
+
+
+
+.h2 {
+    color:rgb(29, 41, 150);
+    margin-left: -1%;
+}
+
+thead {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #666
+}
+.immg{
+    width: 40px;
+    height: 40px;
+    margin-left: 20%;
+}
+
+
+.bg-blue {
+    background-color: #EBF5FB;
+    border-radius: 8px
+}
+
+
+.bg-blue:hover {
+    background-color: #3e64ff;
+    color: #eee;
+    cursor: pointer
+}
+.bg-blue{
+
+    border: 15px solid rgb(255, 255, 255);
+}
+
+.containeer .h2{
+    padding: 3%;
+}
+
+.table thead th{
+    /* position: relative; */
+    /* margin-left: 5%; */
+    width: 22%;
+}
+
+.table thead th,
+.table td {
+    border: none
+}
+
+.table tbody tr h6 {
+
+    /* background-color: red; */
+    width: 55%;
+    margin-top: -15px;
+    font-size: 15px;
+    margin-left: 20%;
+}
+
+
+.table tbody tr .dataa {
+
+    width: 30% !important;
+}
+
+.table tbody tr .time {
+
+    width: 2% !important;
+
+}
+
+.table tbody tr p{
+    width: 110%;
+    margin-left: 5%;
+}
+
+
+.table .btn:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+#spacing-row {
+    height: 10px
+}
+
+
+@media(max-width:767px) {
+    .containeer {
+        padding: 15px 3px;
+    }
+}
+
+
+
+

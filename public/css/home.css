@@ -1,0 +1,8 @@
+.cardd{
+    transition: all 0.3s ease-in-out;
+
+}
+.cardd:hover{
+    box-shadow: 10px 10px 8px 10px rgb(110, 109, 109);
+        cursor: pointer;
+}
